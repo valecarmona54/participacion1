@@ -95,11 +95,3 @@ class Usuario:
     def mostrar_canciones_de_una_lista (self):
         for canciones in self.lista_reproduccion:
             print(canciones)
-
-        """def mostrar_canciones_lista(self): 
-        print (f"Canciones de la lista {self.nombre}: ")
-        for i, cancion in enumerate(self.lista_canciones):
-            print (f"{i + 1}.{cancion.nombre}")
-"""
-
-    #Mostrar canciones de una lista usuario, reproducir listav 
